@@ -18,9 +18,10 @@ if (isset($_POST['submit'])) {
     $user = verifyUsers();
     if ($user) {
         if ($user['role'] == 'studenthelper') {
-            header("Location: userpage.php?username=".$user['username']);
+            //header("Location: userpage.php?username=".$user['username']);
+            header("Location: studenthelperhome.php");
         } elseif ($user['role'] == 'tutor') {
-            header("Location: staffpage.php");
+            header("Location: tutorhome.php");
         } elseif ($user['role'] == 'moduleleader') {
             header("Location: home.php");
         }

@@ -2,6 +2,8 @@
 
 <div class="content">
   <h1>Stage 1</h1>
+  <a href="http://localhost/Hallam%20Student%20Managment%20Sytem%20GitHub/HallamGroup42/viewtutorsandstudenthelpers.php"><button class="tutors-and-student-helpers">Tutors and StudentHelpers</button></a>
+  
   <button class="add-milestones">Add Milestones</button>
   <table>
     <thead>
@@ -51,6 +53,16 @@
     background-color: #D90B3E;
     padding: 10px;
     border-radius: 5px;
+  }
+  .tutors-and-student-helpers {
+    background-color: #D90B3E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
   }
   .add-milestones,
   .info,

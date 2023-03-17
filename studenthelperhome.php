@@ -4,30 +4,34 @@
   <h1>Stage 1</h1>
  
   <table>
-    <thead>
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>ID</th>
-        <th>Information</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>sam</td>
-        <td>mck</td>
-        <td>12345</td>
-        <td><button class="info">Info</button></td>
-      </tr>
-      <tr>
-        <td>mas</td>
-        <td>kcm</td>
-        <td>54321</td>
-        <td><button class="info">Info</button></td>
-      </tr>
-      <!-- Add more rows as needed -->
-    </tbody>
-  </table>
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Surname</th>
+      <th colspan="2">Week 1</th>
+      <th colspan="2">Week 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td style="background-color: green;"></td>
+      <td style="background-color: red;"></td>
+      <td style="background-color: green;"></td>
+      <td style="background-color: red;"></td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Smith</td>
+      <td style="background-color: red;"></td>
+      <td style="background-color: green;"></td>
+      <td style="background-color: green;"></td>
+      <td style="background-color: red;"></td>
+    </tr>
+    <!-- add more rows here -->
+  </tbody>
+</table>
   <div class="scroll-bar">
     <div class="scroll-bar-inner"></div>
   
